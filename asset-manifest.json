@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/the-desk/static/css/main.dc35a410.chunk.css",
-    "main.js": "/the-desk/static/js/main.e8f74a38.chunk.js",
-    "main.js.map": "/the-desk/static/js/main.e8f74a38.chunk.js.map",
-    "runtime-main.js": "/the-desk/static/js/runtime-main.cbd67812.js",
-    "runtime-main.js.map": "/the-desk/static/js/runtime-main.cbd67812.js.map",
-    "static/js/2.3d77be7f.chunk.js": "/the-desk/static/js/2.3d77be7f.chunk.js",
-    "static/js/2.3d77be7f.chunk.js.map": "/the-desk/static/js/2.3d77be7f.chunk.js.map",
-    "static/js/3.b5237e2d.chunk.js": "/the-desk/static/js/3.b5237e2d.chunk.js",
-    "static/js/3.b5237e2d.chunk.js.map": "/the-desk/static/js/3.b5237e2d.chunk.js.map",
+    "main.js": "/the-desk/static/js/main.21360376.chunk.js",
+    "main.js.map": "/the-desk/static/js/main.21360376.chunk.js.map",
+    "runtime-main.js": "/the-desk/static/js/runtime-main.3633377d.js",
+    "runtime-main.js.map": "/the-desk/static/js/runtime-main.3633377d.js.map",
+    "static/js/2.e60f5adf.chunk.js": "/the-desk/static/js/2.e60f5adf.chunk.js",
+    "static/js/2.e60f5adf.chunk.js.map": "/the-desk/static/js/2.e60f5adf.chunk.js.map",
+    "static/js/3.bad70fc0.chunk.js": "/the-desk/static/js/3.bad70fc0.chunk.js",
+    "static/js/3.bad70fc0.chunk.js.map": "/the-desk/static/js/3.bad70fc0.chunk.js.map",
     "index.html": "/the-desk/index.html",
-    "precache-manifest.5c1ff282850a88b1f87cfb007580f038.js": "/the-desk/precache-manifest.5c1ff282850a88b1f87cfb007580f038.js",
+    "precache-manifest.60f08e3c404e491f51fbb50d483eaf46.js": "/the-desk/precache-manifest.60f08e3c404e491f51fbb50d483eaf46.js",
     "service-worker.js": "/the-desk/service-worker.js",
     "static/css/main.dc35a410.chunk.css.map": "/the-desk/static/css/main.dc35a410.chunk.css.map",
-    "static/js/2.3d77be7f.chunk.js.LICENSE.txt": "/the-desk/static/js/2.3d77be7f.chunk.js.LICENSE.txt",
+    "static/js/2.e60f5adf.chunk.js.LICENSE.txt": "/the-desk/static/js/2.e60f5adf.chunk.js.LICENSE.txt",
     "static/media/01-desk.jpg": "/the-desk/static/media/01-desk.f5e1e33f.jpg",
     "static/media/02-desk.jpg": "/the-desk/static/media/02-desk.2cb531f2.jpg",
     "static/media/03-desk.jpg": "/the-desk/static/media/03-desk.0339e9e2.jpg",
@@ -43,9 +43,9 @@
     "static/media/youtube.svg": "/the-desk/static/media/youtube.8b2bc547.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cbd67812.js",
-    "static/js/2.3d77be7f.chunk.js",
+    "static/js/runtime-main.3633377d.js",
+    "static/js/2.e60f5adf.chunk.js",
     "static/css/main.dc35a410.chunk.css",
-    "static/js/main.e8f74a38.chunk.js"
+    "static/js/main.21360376.chunk.js"
   ]
 }

@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "45fa4591fe90a088e874b66c3e959701",
+    "revision": "48253b6bf29fd79ffacce4203c11cd94",
     "url": "/the-desk/index.html"
   },
   {
-    "revision": "41fe2b23e7e688aefe6e",
+    "revision": "4c3eb9cf84adf70e6770",
     "url": "/the-desk/static/css/main.dc35a410.chunk.css"
   },
   {
-    "revision": "9e8eee430cd825574b6d",
-    "url": "/the-desk/static/js/2.3d77be7f.chunk.js"
+    "revision": "48b176a706887a94c7c8",
+    "url": "/the-desk/static/js/2.e60f5adf.chunk.js"
   },
   {
-    "revision": "75e95a905c520d3430b67e4b1e7bffe6",
-    "url": "/the-desk/static/js/2.3d77be7f.chunk.js.LICENSE.txt"
+    "revision": "248fe9facfff898840212404b4cb88d9",
+    "url": "/the-desk/static/js/2.e60f5adf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2c9e4e6c1d5c942302b4",
-    "url": "/the-desk/static/js/3.b5237e2d.chunk.js"
+    "revision": "9b6ee265f7302b60a672",
+    "url": "/the-desk/static/js/3.bad70fc0.chunk.js"
   },
   {
-    "revision": "41fe2b23e7e688aefe6e",
-    "url": "/the-desk/static/js/main.e8f74a38.chunk.js"
+    "revision": "4c3eb9cf84adf70e6770",
+    "url": "/the-desk/static/js/main.21360376.chunk.js"
   },
   {
-    "revision": "98c863c47e8aeab51095",
-    "url": "/the-desk/static/js/runtime-main.cbd67812.js"
+    "revision": "3bb4daa4af8c7391b34f",
+    "url": "/the-desk/static/js/runtime-main.3633377d.js"
   },
   {
     "revision": "f5e1e33f315fb8a42c5ed9a71f318e2c",
