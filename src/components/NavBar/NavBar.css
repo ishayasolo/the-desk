@@ -1,0 +1,170 @@
+.nav {
+	background-color: #10152C;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 2;
+}
+
+.nav-container {
+	font-family: "Montserrat", sans-serif;
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+.mobile {
+	display: flex;
+}
+
+.logo-container {
+	width: 130px;
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	width: 100%;
+}
+
+.close-container {
+	width: 20px;
+	position: absolute;
+	top: 1.5rem;
+	right: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+.close {
+	width: 100%;
+}
+
+.hamburger-icon {
+	display: inline-block;
+	width:1.52rem;
+	margin-left: auto;
+}
+
+.navigation-links {
+	background-color: #10152C;
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 3;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	transition: 0.5s;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.navigation-link {
+	padding: 0.75rem 1rem;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+}
+
+.navigation-link:hover {
+	color: #fff;
+}
+
+.bookASpace {
+	border-radius: 10px;
+	background-color: #E6AF17;
+	border: 2px solid #10152C;
+	padding: 0.75rem 1rem;
+	text-decoration: none;
+	color: #10152C;
+	font-weight: 600;
+	width: fit-content;
+	margin: 0 auto;
+}
+
+.bookASpace:hover,
+.bookASpace:active {
+	background-color: #10152C;
+	color: #fff;
+	border-color: #fff;
+}
+
+.dropdown-menu {
+	height: fit-content;
+	width: fit-content;
+	padding: 0;
+	margin: 0;
+	background-color: #10152C;
+	color: #fff;
+	transition: none;
+	/* border-radius: 0 0 10px 10px; */
+	position: relative;
+}
+
+.dropdown-item {
+	padding: 1rem;
+	font-weight: 500;
+	width: fit-content;
+	width: 100%;
+	background-color: #10152C;
+	color: #fff;
+	/* border-radius: 0 0 10px 10px; */
+	text-align: center;
+}
+	
+.dropdown-item:hover,
+.dropdown-item:active {
+	font-size: 1.1rem;
+	background-color: #10152C;
+	border-bottom: 2px solid #fff;
+	color: #fff;
+}
+
+
+@media only screen and (min-width: 768px) {
+	.nav-container {
+		width: 100%;
+		padding: 2rem;
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	.hamburger-icon,
+	.close {
+		display: none;
+	}
+	
+	.navigation-links {
+		min-width: fit-content;
+		width: 100%;
+		display: flex;
+		justify-content: flex-end;
+		overflow: visible;
+		gap: 2rem;
+		position: relative;
+		flex-direction: row;
+		padding: 0;
+	}
+	
+	.navigation-link {
+		width: fit-content;
+	}
+	
+	.navigation-link:hover {
+		border-bottom: 2px solid #fff;
+		color: #fff;
+		font-weight: 300;
+	}
+	
+	.dropdown-item {
+		text-align: left;
+	}
+	
+	.bookASpace {
+		margin: 0;
+	}
+}

@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.footer {
+	background-color: #10152C;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	font-family: "Montserrat", sans-serif;
+	padding: 3rem 1rem 2rem;
+	background-color: #10152C;
+}
+
+.contact-info {
+	font-size: 1.4rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2rem;
+	background-color: #10152C;
+}
+
+.footer-child {
+	font-size: 0.85rem;
+	background-color: #10152C;
+}
+
+.address-name {
+	font-weight: 500;
+	font-size: 0.9rem;
+}
+
+address {
+	margin: 0;
+	padding: 0;
+}
+
+.footer-link {
+	color: #fff;
+	display: inline-block;
+	transition: 0.5s;
+}
+
+.footer-link:hover {
+	font-weight: 500;
+	color: #fff;
+	font-size: 1rem;
+}
+
+.copy {
+	display: block;
+	padding: 0 0 2rem;
+	color: #fff9;
+}
+
+@media only screen and (min-width: 768px) {
+	.footer {
+		gap: 3rem;
+		padding-top: 4rem;
+	}
+	
+	.contact-info {
+		flex-direction: row;
+		gap: 6rem;
+		justify-content: center;
+	}
+}

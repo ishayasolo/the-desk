@@ -1,0 +1,29 @@
+.feature {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	flex-basis: 100%;
+	border-radius: 15px;
+	border: 0.4px solid #10152c2c;
+	box-shadow: 0 2px 4px #10152c1f;
+	padding: 1rem;
+	justify-content: center;
+}
+
+.feature-logo {
+	width: 2rem;
+}
+
+.feature-title {
+	color: #10152c;
+}
+
+.feature-desc {
+	color: #10152c;
+}
+
+@media only screen and (min-width: 768px) {
+	.feature {
+		flex-basis: 50%;
+	}
+}

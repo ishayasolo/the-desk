@@ -1,0 +1,130 @@
+.example {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	z-index: 0; /* if you use -1 you have to set to `"window"` the interactivity.detectsOn property */
+	width: 100%;
+	pointer-events: initial;
+}
+
+.hero {
+	background-color: #10152C;
+	font-family: "Montserrat", sans-serif;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: auto;
+}
+
+.hero-content {
+	z-index: 1;
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 6rem 1rem 1rem;
+	display: flex;
+	flex-direction: column;
+	height: fit-content;
+}
+
+.hero-text-box {
+	display: flex;
+	flex-direction: column;
+	padding-right: 10%;
+	gap: 2rem;
+	height: fit-content;
+}
+
+.hero-message {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 2.2rem;
+}
+
+.hero-description {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 1.1rem;
+}
+
+.hero-cta {
+	border-radius: 10px;
+	color: #10152C;
+	background-color: #E6AF17;
+	display: inline-block;
+	padding: 0.75rem 1rem;
+	text-decoration: none;
+	color: #10152C;
+	font-weight: 600;
+	width: fit-content;
+	border: 2px solid #E6AF17;
+}
+
+.hero-cta:hover {
+	background-color: #10152C;
+	color: #fff;
+	border-color: #fff;
+}
+
+.hero-youtube {
+	display: flex;
+	flex-direction: column;
+	max-width: 100%;
+	border-radius: 10px;
+	justify-content: center;
+	align-items: flex-start;
+	margin: 2rem 0;
+	height: fit-content;
+}
+
+.youtube {
+	max-width: 100%;
+	border-radius: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+	.hero-content {
+		margin: 3rem auto;
+		padding: 4rem 2rem 2rem;
+	}
+
+	.hero-message {
+		font-size: 3rem;
+	}
+
+	.hero-description {
+		font-size: 1.5rem;
+	}
+
+	.hero-text-box {
+		max-width: 70%;
+		padding-right: 0;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.hero-content {
+		display: flex;
+		justify-content: center;
+		max-width: 1200px;
+		flex-direction: row;
+		margin: auto;
+		gap: 1.5rem;
+	}
+
+	.hero-text-box {
+		width: 50%;
+	}
+
+	.hero-youtube {
+		justify-content: flex-start;
+		align-items: flex-end;
+		padding:  0;
+		margin: 0 0 0 auto;
+	}
+}

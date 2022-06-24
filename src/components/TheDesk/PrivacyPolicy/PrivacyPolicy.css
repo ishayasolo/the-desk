@@ -1,0 +1,32 @@
+.privacy-policy {
+	padding: 2rem 0;
+}
+
+.privacy-header {
+	max-width: 1200px;
+	margin: 2rem auto;
+	text-align: center;
+}
+
+.accordion-item {
+	border-color: #10152c;
+	color: #10152c;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.accordion-button {
+	color: #10152c;
+	border: none;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.accordion-header {
+	border: none;
+}
+
+.accordion-button:not(.collapsed) {
+	color: #10152c;
+	background-color: #fff;
+}
