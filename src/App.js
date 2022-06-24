@@ -7,7 +7,7 @@ import TermsOfUse from "./components/TheDesk/TermsOfUse/TermsOfUse";
 import PrivacyPolicy from "./components/TheDesk/PrivacyPolicy/PrivacyPolicy";
 
 const App = () => (
-	<Router>
+	<Router basename={window.location.pathname || ''}>
 		<Routes>
 			<Route path="/" element={<LandingPage />} />
 			<Route path="/theBulb" element={<TheBulb />} />

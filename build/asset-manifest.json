@@ -5,15 +5,15 @@
     "main.js.map": "/the-desk/static/js/main.21360376.chunk.js.map",
     "runtime-main.js": "/the-desk/static/js/runtime-main.3633377d.js",
     "runtime-main.js.map": "/the-desk/static/js/runtime-main.3633377d.js.map",
-    "static/js/2.df1c6b66.chunk.js": "/the-desk/static/js/2.df1c6b66.chunk.js",
-    "static/js/2.df1c6b66.chunk.js.map": "/the-desk/static/js/2.df1c6b66.chunk.js.map",
+    "static/js/2.e60f5adf.chunk.js": "/the-desk/static/js/2.e60f5adf.chunk.js",
+    "static/js/2.e60f5adf.chunk.js.map": "/the-desk/static/js/2.e60f5adf.chunk.js.map",
     "static/js/3.bad70fc0.chunk.js": "/the-desk/static/js/3.bad70fc0.chunk.js",
     "static/js/3.bad70fc0.chunk.js.map": "/the-desk/static/js/3.bad70fc0.chunk.js.map",
     "index.html": "/the-desk/index.html",
-    "precache-manifest.05093da9010fd5a81183beaae67a597d.js": "/the-desk/precache-manifest.05093da9010fd5a81183beaae67a597d.js",
+    "precache-manifest.60f08e3c404e491f51fbb50d483eaf46.js": "/the-desk/precache-manifest.60f08e3c404e491f51fbb50d483eaf46.js",
     "service-worker.js": "/the-desk/service-worker.js",
     "static/css/main.dc35a410.chunk.css.map": "/the-desk/static/css/main.dc35a410.chunk.css.map",
-    "static/js/2.df1c6b66.chunk.js.LICENSE.txt": "/the-desk/static/js/2.df1c6b66.chunk.js.LICENSE.txt",
+    "static/js/2.e60f5adf.chunk.js.LICENSE.txt": "/the-desk/static/js/2.e60f5adf.chunk.js.LICENSE.txt",
     "static/media/01-desk.jpg": "/the-desk/static/media/01-desk.f5e1e33f.jpg",
     "static/media/02-desk.jpg": "/the-desk/static/media/02-desk.2cb531f2.jpg",
     "static/media/03-desk.jpg": "/the-desk/static/media/03-desk.0339e9e2.jpg",
@@ -44,7 +44,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3633377d.js",
-    "static/js/2.df1c6b66.chunk.js",
+    "static/js/2.e60f5adf.chunk.js",
     "static/css/main.dc35a410.chunk.css",
     "static/js/main.21360376.chunk.js"
   ]
