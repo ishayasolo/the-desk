@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "48253b6bf29fd79ffacce4203c11cd94",
+    "revision": "792a6694cb2fc84f6ad05134bd117e16",
     "url": "/the-desk/index.html"
   },
   {
-    "revision": "4c3eb9cf84adf70e6770",
+    "revision": "899f742ef04845c88cad",
     "url": "/the-desk/static/css/main.dc35a410.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/the-desk/static/js/3.bad70fc0.chunk.js"
   },
   {
-    "revision": "4c3eb9cf84adf70e6770",
-    "url": "/the-desk/static/js/main.21360376.chunk.js"
+    "revision": "899f742ef04845c88cad",
+    "url": "/the-desk/static/js/main.7da7f1c7.chunk.js"
   },
   {
     "revision": "3bb4daa4af8c7391b34f",
